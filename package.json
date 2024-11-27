@@ -1,0 +1,6 @@
+ {
+    "name": "Victoria",
+    "age": 26,
+   "enrolled": true, 
+    "course": ["Algorithms", "Web design", "Javascript"]
+ }
