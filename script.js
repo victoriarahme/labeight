@@ -18,3 +18,16 @@ let student = {
         let studentJson = JSON.stringify(student);
 
         console.log(studentJson);
+
+//Part 3:
+        let { name, course } = student;
+
+        console.log(name);
+        console.log(course);
+
+    let scores = [75, 87, 50, 46];
+
+    let [first, second]= scores;
+
+    console.log(first);
+    console.log(second);
