@@ -10,10 +10,13 @@ let student = {
     information: function () {
         
         console.log(student.name, student.age, student.enrolled, student.course);
-}};
+}   newcourse: ["Database", "Operations"];
+    };
         console.log(student.name, student.age);
 
         student.information();
+    
+    
 //PART 2:
         let studentJson = JSON.stringify(student);
 
@@ -50,3 +53,5 @@ let copiedStudent = {
     graduationYear: 2026
     
 }
+
+//part 5:
