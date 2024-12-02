@@ -11,13 +11,13 @@ let student = {
         
         console.log(student.name, student.age, student.enrolled, student.course);
 }   
-    newcourse: ["Database", "Operations"],
+  //  newcourse: ["Database", "Operations"],
     };
         console.log(student.name, student.age);
 
         student.information();
 
-        console.log(student.course, student.newcourse);
+     //   console.log(student.course, student.newcourse);
     
 //PART 2:
         let studentJson = JSON.stringify(student);
