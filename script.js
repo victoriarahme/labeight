@@ -31,3 +31,22 @@ let student = {
 
     console.log(first);
     console.log(second);
+
+//Part 4
+let originalStudent = {name: "Victoria",
+    age: 26,
+    //boolean
+    enrolled: true,
+    //course array   
+    course: ["Algorithms", "Web design", "Javascript"],}
+
+let copiedStudent = {
+    name: "Victoria",
+    age: 26,
+    //boolean
+    enrolled: true,
+    //course array   
+    course: ["Algorithms", "Web design", "Javascript"],
+    graduationYear: 2026
+    
+}
