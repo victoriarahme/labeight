@@ -19,7 +19,7 @@ let student = {
 
         console.log(studentJson);
 
-//Part 3:
+//Part 3: Using destructuring assignment
         let { name, course } = student;
 
         console.log(name);
